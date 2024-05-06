@@ -1,0 +1,21 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-container, .right-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .left-container {
+        width: 50%;
+        margin-bottom: 0;
+    }
+
+    .right-container {
+        width: 50%;
+        margin-left: auto;
+    }
+}
